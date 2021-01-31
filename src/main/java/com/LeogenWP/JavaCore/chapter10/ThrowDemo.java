@@ -10,6 +10,7 @@ public class ThrowDemo {
         }
     }
 
+
     public static void main(String[] args) {
         try {
             demoproc();
