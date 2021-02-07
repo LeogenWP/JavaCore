@@ -1,0 +1,13 @@
+package com.LeogenWP.JavaCore.chapter20;
+
+import java.util.Date;
+
+public class DateDemo {
+    public static void main(String[] args) {
+        Date date = new Date();
+        System.out.println(date);
+
+        Long msec = date.getTime();
+        System.out.println(msec);
+    }
+}
